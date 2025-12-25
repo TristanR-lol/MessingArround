@@ -1,1 +1,51 @@
+#ButtonHolder {
+    display: flex;
+    gap: 20px;
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Button {
+    display: block;
+    aspect-ratio: 1/1; 
+    height: 75px;
+    border-radius: 0.9rem;
+    transition: 1s cubic-bezier(0.42, 0, 0.58, 1);
+    box-shadow: 10px 10px 30px;
+}
+
+.Button:hover {
+    scale: 1.2;
+    rotate: 360deg;
+}
+
+/* Button Colours */
+
+#ButtonRed {
+    background-color: rgb(255, 174, 190);
+}
+
+#ButtonGreen {
+    background-color: rgb(174, 255, 175);
+}
+
+#ButtonBlue {
+    background-color: rgb(174, 217, 255);
+}
+
+/* Hover Drop Shadow Colours */ 
+
+#ButtonBlue:hover {
+    box-shadow: 10px 10px 50px rgb(174, 217, 255);
+}
+
+#ButtonRed:hover {
+    box-shadow: 10px 10px 50px rgb(255, 174, 190);
+}
+
+#ButtonGreen:hover {
+    box-shadow: 10px 10px 50px rgb(174, 255, 175);
+}
