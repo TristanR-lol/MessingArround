@@ -9,6 +9,7 @@ let RedOptions = [
     "Go forward three spaces.",
     "Go up one column.",
     "Go down one column.",
+    "Swap places with the nearest player.",
     "Do nothing :D",
 ]
 
