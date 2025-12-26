@@ -6,6 +6,8 @@
 
     font-family: 'Sour Gummy', sans-serif;
     text-align: center;
+
+    cursor: default;
 }
 
 #Description {
@@ -16,6 +18,8 @@
 
     text-align: center;
     font-family: 'Sour Gummy', sans-serif;
+
+    cursor: default;
 }
 
 #ButtonHolder {
@@ -31,6 +35,7 @@
 }
 
 .Button {
+    cursor: pointer;
     display: block;
     aspect-ratio: 1/1; 
     height: 75px;

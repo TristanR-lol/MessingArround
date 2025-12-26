@@ -8,19 +8,26 @@ let RedOptions = [
     "Go forward two spaces.",
     "Go forward three spaces.",
     "Go up one column.",
-    "Go down one column."
+    "Go down one column.",
+    "Do nothing :D",
 ]
 
 let GreenOptions = [
     "Skip your next turn.",
     "Choose someone to skip their next turn",
     "Go to the nearest snake. (any position on snake)",
-    "Go to the nearest ladder (any position on ladder)"
+    "Go to the nearest ladder (any position on ladder)",
+    "Do nothing :D",
 ]
 
 let BlueOptions = [
-    "one",
-    "two",
+    "Jump 20 times before your next turn.",
+    "Meow :3 (say that 10 times before your next turn)",
+    "Everyone must chase you (run away for 20 seconds). If you get caught, click blue again.",
+    "Pretend to eat spaghetti with your hands 😈😈😈",
+    "Pretend to be trapped in an invisible box.",
+    "Mime a deep sea diver running out of air.",
+    "Do nothing :D",
 ]
 
 function PickRandomNumber(min, max) {
