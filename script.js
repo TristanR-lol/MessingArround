@@ -26,7 +26,6 @@ let BlueOptions = [
     "Everyone must chase you (run away for 20 seconds). If you get caught, click blue again.",
     "Pretend to eat spaghetti with your hands 😈😈😈",
     "Pretend to be trapped in an invisible box.",
-    "Mime a deep sea diver running out of air.",
     "Do nothing :D",
 ]
 
