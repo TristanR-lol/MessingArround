@@ -3,15 +3,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <h1 id="Title">Kind Snakes & Wobbly Ladders</h1>
+        <p id="Description">When you land on any colour square except the bottom of a ladder or the top of a snake, click the matching colour.</p>
         <div id="ButtonHolder">
-            <button class="Button" id="ButtonRed"></button>
-            <button class="Button" id="ButtonGreen"></button>
-            <button class="Button" id="ButtonBlue"></button>
+            <button class="Button" id="ButtonRed" aria-pressed="false"></button>
+            <button class="Button" id="ButtonGreen" aria-pressed="false"></button>
+            <button class="Button" id="ButtonBlue" aria-pressed="false"></button>
         </div>
 
         <div id="Display">
@@ -19,5 +24,6 @@
         </div>
 
     </body>
-
+    
+    <script src="script.js"></script>
 </html>

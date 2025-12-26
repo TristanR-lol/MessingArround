@@ -4,7 +4,18 @@
     left: 50%;
     transform: translate(-50%, -0%);
 
-    font-family: 'Sour Gummy', 'Nunito', "Comic Sans MS", "Source Sans Pro";
+    font-family: 'Sour Gummy', sans-serif;
+    text-align: center;
+}
+
+#Description {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+
+    text-align: center;
+    font-family: 'Sour Gummy', sans-serif;
 }
 
 #ButtonHolder {
@@ -15,6 +26,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    transition: 1s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .Button {
@@ -26,9 +39,13 @@
     box-shadow: 10px 10px 30px;
 }
 
-.Button:hover {
+.Button:hover[aria-pressed="false"] {
     scale: 1.2;
     rotate: 360deg;
+}
+
+.Button[aria-pressed="true"] {
+    scale: 0;
 }
 
 /* Button Colours */
@@ -70,11 +87,21 @@
     height: 30%;
 
     position: absolute;
-    top: 50%;
+    top: -50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    transition: 1s cubic-bezier(0.42, 0, 0.58, 1);
 
     background-color: black;
     
     color: red;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: x-large;
+}
+
+#Display[aria-pressed="true"] {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 20px 100px black;
 }
