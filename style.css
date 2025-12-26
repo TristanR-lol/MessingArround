@@ -1,3 +1,12 @@
+:root {
+    --body-colour: rgb(255, 255, 255)
+}
+
+body {
+    transition: 1s cubic-bezier(0.42, 0, 0.58, 1);
+    background-color: var(--body-colour);
+}
+
 #Title {
     position: absolute;
     top: 0%;
@@ -41,7 +50,6 @@
     height: 75px;
     border-radius: 0.9rem;
     transition: 1s cubic-bezier(0.42, 0, 0.58, 1);
-    box-shadow: 10px 10px 30px;
 }
 
 .Button:hover[aria-pressed="false"] {
@@ -57,14 +65,17 @@
 
 #ButtonRed {
     background-color: rgb(255, 174, 190);
+    box-shadow: 10px 10px 30px rgb(137, 1, 28);
 }
 
 #ButtonGreen {
     background-color: rgb(174, 255, 175);
+    box-shadow: 10px 10px 30px rgb(1, 117, 3);
 }
 
 #ButtonBlue {
     background-color: rgb(174, 217, 255);
+    box-shadow: 10px 10px 30px rgb(0, 90, 169);
 }
 
 /* Hover Drop Shadow Colours */ 
