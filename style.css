@@ -1,10 +1,7 @@
-:root {
-    --body-colour: rgb(255, 255, 255)
-}
-
 body {
     transition: 1s cubic-bezier(0.42, 0, 0.58, 1);
-    background-color: var(--body-colour);
+    animation: 30s Gradient;
+    animation-iteration-count: infinite;
 }
 
 #Title {
@@ -138,4 +135,42 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 10px 20px 100px black;
+}
+
+/* Keyframes */
+
+@keyframes Gradient {
+    0% {
+        background-color: rgb(174, 214, 237)
+    }
+    10% {
+        background-color: rgb(196, 174, 237)
+    }
+    20% {
+        background-color: rgb(215, 174, 237)
+    }
+    30% {
+        background-color: rgb(237, 174, 175)
+    }
+    40% {
+        background-color: rgb(205, 174, 237)
+    }
+    50% {
+        background-color: rgb(192, 237, 174)
+    }
+    60% {
+        background-color: rgb(237, 216, 174)
+    }
+    70% {
+        background-color: rgb(237, 174, 174)
+    }
+    80% {
+        background-color: rgb(210, 174, 237)
+    }
+    90% {
+        background-color: rgb(237, 225, 174)
+    }
+    100% {
+        background-color: rgb(174, 214, 237)
+    }
 }
